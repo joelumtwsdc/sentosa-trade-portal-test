@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 font-sans antialiased;
+  }
+  #root {
+    @apply w-full min-h-screen;
+  }
+}
+
+@layer utilities {
+  .transition-card {
+    @apply transition-all duration-200 ease-in-out;
+  }
+}
